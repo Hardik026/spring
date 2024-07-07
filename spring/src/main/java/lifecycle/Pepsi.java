@@ -20,14 +20,14 @@ public class Pepsi implements DisposableBean,InitializingBean{
 		return "Pepsi [price=" + price + "]";
 	}
 
-	@Override
+
 	public void destroy() throws Exception {
 		// TODO Auto-generated method stub
 		System.out.println("inside destroy");
 		
 	}
 
-	@Override
+
 	public void afterPropertiesSet() throws Exception {
 		// TODO Auto-generated method stub
 		System.out.println("inside init");
